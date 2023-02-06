@@ -1,0 +1,19 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav>
+        <mat-label>{{sdf}}</mat-label>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <mat-grid-list cols="10" rowHeight="100%">
+            <mat-grid-tile class="sidemenu" [colspan]="1">
+                <div class="homebutton">
+                    <button mat-fab (click)="sidenav.toggle()" color="warn">
+                        <mat-icon>home</mat-icon>
+                    </button>
+                </div>
+            </mat-grid-tile>
+            <mat-grid-tile id="2" [colspan]="9">2
+            </mat-grid-tile>
+        </mat-grid-list>
+
+    </mat-sidenav-content>
+</mat-sidenav-container>

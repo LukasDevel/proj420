@@ -1,0 +1,28 @@
+mat-sidenav-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+}
+
+mat-sidenav {
+    width: 300px;
+}
+mat-sidenav-content {
+    height: 100%;
+    
+  }
+.homebutton{
+    justify-self: start;
+    align-self: flex-start;
+    margin-top: 20px;
+} 
+.sidemenu {
+    background-color: olive;
+    border-right: 2px solid black;
+    
+    
+    
+}
